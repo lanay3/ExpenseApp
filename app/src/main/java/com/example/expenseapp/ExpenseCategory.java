@@ -15,4 +15,5 @@ public class ExpenseCategory extends Category {
    public void setType(ExpenseCategoryType type) {
       this.type = type;
    }
+
 }
