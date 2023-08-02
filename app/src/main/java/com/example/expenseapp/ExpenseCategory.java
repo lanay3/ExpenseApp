@@ -3,8 +3,8 @@ package com.example.expenseapp;
 public class ExpenseCategory extends Category {
    private ExpenseCategoryType type;
 
-   public ExpenseCategory(String name, String id, String description, ExpenseCategoryType type) {
-      super(name, id, description);
+   public ExpenseCategory(String name, CategoryType description, ExpenseCategoryType type) {
+      super(name, description);
       this.type = type;
    }
 
@@ -15,4 +15,5 @@ public class ExpenseCategory extends Category {
    public void setType(ExpenseCategoryType type) {
       this.type = type;
    }
+
 }
