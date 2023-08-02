@@ -2,9 +2,9 @@ package com.example.expenseapp;
 
 public abstract class Category {
     private String name;
-    private String description;
+    private CategoryType description;
 
-    public Category(String name, String id, String description) {
+    public Category(String name, CategoryType description) {
         this.name = name;
         this.description = description;
     }
@@ -17,11 +17,11 @@ public abstract class Category {
         return name;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(CategoryType description) {
         this.description = description;
     }
 
-    public String getDescription() {
+    public CategoryType getDescription() {
         return description;
     }
 
