@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Border Color -->
+    <stroke
+        android:width="10dp"
+        android:color="#000000"> <!-- Replace with the desired border color -->
+    </stroke> <!-- Adjust the border width as needed -->
+
+    <!-- Background Color for the TextView -->
+    <solid
+        android:color="#FFFFFF"></solid> <!-- Replace with the desired background color -->
+
+    <!-- Corner Radius -->
+    <corners
+        android:radius="8dp"></corners> <!-- Adjust the corner radius as needed -->
+
+</shape>
